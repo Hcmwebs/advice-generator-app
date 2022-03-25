@@ -23,8 +23,10 @@ const Card = () => {
 		<section>
 			<div className='card'>
 				<h1 className='card-header'>Advice # {id}</h1>
-				<p className='card-body'>{advice}</p>
-				<div className='separator'></div>
+				<p className='card-body'>"{advice}"</p>
+				<div className='separator'>
+          
+        </div>
 				<button className='btn' onClick={fetchAdvice}>
 					random button
 				</button>
