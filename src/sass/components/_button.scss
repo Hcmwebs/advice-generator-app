@@ -1,21 +1,22 @@
 @use '../abstracts' as *;
 .btn {
-	width: 50px;
-	height: 50px;
+	width: 64px;
+	height: 64px;
 	border-radius: 50%;
 	border: none;
-	background-color: lightgreen;
+	background-color: $neon-green;
+	outline: none;
 	cursor: pointer;
-	opacity: 0.7;
-	transition: opacity 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
 
 	&.hover,
 	&.focus,
 	&.active {
-		opacity: 1;
+		opacity: 0.8;
 	}
-	&:active {
-		animation: spin 500ms linear;
+
+	&:active .icon-dice {
+		animation: spin 300ms linear;
 	}
 }
 
@@ -24,6 +25,6 @@
 		transform: rotate(0deg);
 	}
 	to {
-		transform: rotate(720deg);
+		transform: rotate(1000deg);
 	}
 }
