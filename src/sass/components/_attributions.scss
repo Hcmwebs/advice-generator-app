@@ -10,5 +10,23 @@
 
 	a {
 		color: $neon-green;
+		position: relative;
+
+		&:hover {
+			transform: scale(0.95);
+		}
+		&::before {
+			content: '';
+			position: absolute;
+			width: 0;
+			height: 2px;
+			bottom: -4px;
+			margin: 0 auto;
+			background-color: $neon-green;
+			transition: $transition-5;
+		}
+		&:hover::before {
+			width: 100%;
+		}
 	}
 }
