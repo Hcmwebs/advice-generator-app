@@ -1,0 +1,6 @@
+@use '../abstracts' as *;
+
+.footer {
+	@include grid(center);
+	padding: 0 2rem;
+}

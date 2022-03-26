@@ -1,0 +1,32 @@
+@use '../abstracts/' as *;
+
+.card {
+	width: 100%;
+	min-height: 350px;
+	max-width: $fixedWidth;
+	padding: 2.5rem 1.5rem;
+	border-radius: $borderRadius-1;
+	@include grid(center);
+	background-color: $dark-grayish-blue;
+	gap: 1.5rem;
+	position: relative;
+
+	&-header {
+		font-size: 11px;
+		font-weight: $extraBold;
+		margin: 0;
+		color: $neon-green;
+	}
+	&-body {
+		width: 100%;
+		font-size: $quote;
+		text-align: center;
+		color: $light-cyan;
+	}
+
+	.btn {
+		position: absolute;
+		bottom: -4rem;
+		transform: translateY(-50%);
+	}
+}

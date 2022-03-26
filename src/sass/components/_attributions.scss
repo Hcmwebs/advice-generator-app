@@ -1,0 +1,14 @@
+@use '../abstracts' as *;
+
+.attribution {
+	.small {
+		font-size: $smallText;
+		font-weight: $extraBold;
+		text-align: center;
+		color: $light-cyan;
+	}
+
+	a {
+		color: $neon-green;
+	}
+}

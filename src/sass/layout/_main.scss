@@ -1,9 +1,14 @@
-@use '../abstracts' as *;
-@use '../base/typo' as *;
+@use '../abstracts/' as *;
 
-.container {
+main {
 	width: 100%;
-	max-width: $maxWidth;
-	padding: 4rem 1.5rem;
+	max-width: $fixedWidth;
 	@include grid(center);
+	padding: 1.5rem 0;
+}
+
+@media (min-width: 1440px) {
+	main {
+		padding: 3rem 0;
+	}
 }
