@@ -4,7 +4,7 @@ const Attributions = () => {
 	return (
 		<div className='attribution'>
 			<small className='small'>
-				Challenge bygit 
+				Challenge by
 				<a
 					href='https://www.frontendmentor.io?ref=challenge'
 					target='_blank'
