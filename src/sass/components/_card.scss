@@ -12,10 +12,12 @@
 	position: relative;
 
 	&-header {
-		font-size: 11px;
+		font-size: $smallText;
 		font-weight: $extraBold;
+		letter-spacing: 3.65px;
 		margin: 0;
 		color: $neon-green;
+		text-transform: uppercase;
 	}
 	&-body {
 		width: 100%;
