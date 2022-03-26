@@ -4,12 +4,10 @@ import Footer from './component/Footer';
 
 const App = () => {
 	return (
-		<>
-			<main>
-				<Card />
-			</main>
+		<div className='container'>
+			<Card />
 			<Footer />
-		</>
+		</div>
 	);
 };
 

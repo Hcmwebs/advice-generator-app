@@ -22,14 +22,18 @@ const Card = () => {
 	fetchAdvice();
 
 	return (
-		<section>
+		<main>
 			<div className='card'>
-				<h1 className='card-header'>Advice # {id}</h1>
+				<h1 className='card-header'>Advice #{id}</h1>
 				<p className='card-body'>"{advice}"</p>
 				<picture>
 					<source srcset={patternMobile} media='max-width: 375px' />
 					<source srcset={patternDesktop} media='max-width: 1440px' />
-					<img src={patternMobile} alt='pattern divider mobile' />
+					<img
+						src={patternMobile}
+						alt='pattern divider mobile'
+						className='img'
+					/>
 				</picture>
 				<button className='btn' onClick={fetchAdvice}>
 					<svg
@@ -44,7 +48,7 @@ const Card = () => {
 					</svg>
 				</button>
 			</div>
-		</section>
+		</main>
 	);
 };
 
