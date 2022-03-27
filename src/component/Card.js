@@ -27,15 +27,15 @@ const Card = () => {
 				<h1 className='card-header'>Advice #{id}</h1>
 				<p className='card-body'>"{advice}"</p>
 				<picture>
-					<source srcset={patternMobile} media='max-width: 375px' />
-					<source srcset={patternDesktop} media='max-width: 1440px' />
+					<source srcset={patternMobile} media='(max-width: 375px)' />
+					<source srcset={patternDesktop} media='(max-width: 1440px)' />
 					<img
 						src={patternMobile}
 						alt='pattern divider mobile'
 						className='img'
 					/>
 				</picture>
-				<button className='btn' onClick={fetchAdvice}>
+				<button className='btn' onClick={fetchAdvice} aria-label='button'>
 					<svg
 						className='icon-dice'
 						width='24'
