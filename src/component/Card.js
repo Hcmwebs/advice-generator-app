@@ -27,8 +27,8 @@ const Card = () => {
 				<h1 className='card-header'>Advice #{id}</h1>
 				<p className='card-body'>"{advice}"</p>
 				<picture>
-					<source srcset={patternMobile} media='(max-width: 375px)' />
 					<source srcset={patternDesktop} media='(max-width: 1440px)' />
+					<source srcset={patternMobile} media='(max-width: 375px)' />
 					<img
 						src={patternMobile}
 						alt='pattern divider mobile'
