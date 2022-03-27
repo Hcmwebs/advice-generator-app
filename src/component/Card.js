@@ -25,7 +25,7 @@ const Card = () => {
 		<main>
 			<div className='card'>
 				<h1 className='card-header'>Advice #{id}</h1>
-				<p className='card-body'>"{advice}"</p>
+				<q className='card-body'>{advice}</q>
 				<picture>
 					<source srcset={patternDesktop} media='(max-width: 1440px)' />
 					<source srcset={patternMobile} media='(max-width: 375px)' />
