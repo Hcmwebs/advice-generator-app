@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://your-solution-url.com)
-- [Live site](https://your-live-site-url.com)
+- [Solution](https://www.frontendmentor.io/solutions/project-done-with-sass-react-and-a-bit-axios-r1gSs26fq)
+- [Live site](https://advice-generetor-app-c0bf99.netlify.app/)
 
 ## My process
 
