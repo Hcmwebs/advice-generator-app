@@ -11,6 +11,7 @@
 	a {
 		color: $neon-green;
 		position: relative;
+		margin-inline: 3px;
 
 		&:hover {
 			transform: scale(0.95);
