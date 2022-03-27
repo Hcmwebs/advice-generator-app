@@ -35,7 +35,7 @@ const Card = () => {
 						className='img'
 					/>
 				</picture>
-				<button className='btn' onClick={fetchAdvice} aria-label='button'>
+				<button className='btn' onClick={fetchAdvice} aria-label='fetch advice'>
 					<svg
 						className='icon-dice'
 						width='24'
