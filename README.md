@@ -16,7 +16,6 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-
 ## Overview
 
 ### The challenge
@@ -35,9 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
+- [Solution](https://your-solution-url.com)
+- [Live site](https://your-live-site-url.com)
 
 ## My process
 
@@ -75,11 +73,8 @@ My level in react is still very basic but I am enjoying every project that I am 
 - Frontend Mentor - [@hcmwebs](https://www.frontendmentor.io/profile/hcmwebs)
 - Twitter - [@hcmwebs](https://www.twitter.com/hcmwebs)
 
-
-
 ## Acknowledgments
 
-- [Frontend mentor](https://www.frontendmentor.io) - Thanks for creating  such an amazing platform where each challenge is a learning opportunity.
+- [Frontend mentor](https://www.frontendmentor.io) - Thanks for creating such an amazing platform where each challenge is a learning opportunity.
 
 - [@john-smilga](https://github.com/john-smilga) - Special thank to you for regularly creating content that is so education.
-
