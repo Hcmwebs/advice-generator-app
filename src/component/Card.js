@@ -1,25 +1,27 @@
-import React, { useState } from 'react';
-import axios from 'axios';
-import patternMobile from '../images/pattern-divider-mobile.svg';
-import patternDesktop from '../images/pattern-divider-desktop.svg';
+import React, { useState } from 'react'
+import axios from 'axios'
+import patternMobile from '../images/pattern-divider-mobile.svg'
+import patternDesktop from '../images/pattern-divider-desktop.svg'
 
-const url = 'https://api.adviceslip.com/advice';
+const url = 'https://api.adviceslip.com/advice'
 
 const Card = () => {
-	const [id, setId] = useState(1);
-	const [advice, setAdvice] = useState('Advice goes here');
+	const [id, setId] = useState(1)
+	const [advice, setAdvice] = useState('Advice goes here')
 
 	const fetchAdvice = async () => {
 		try {
-			const { data } = await axios(url);
-			const { id, advice } = data.slip;
-			setId(id);
-			setAdvice(advice);
+			const { data } = await axios(url)
+			const { id, advice } = data.slip
+
+			setId(id)
+			setAdvice(advice)
 		} catch (error) {
-			console.log(error.response);
+			console.log(error.response)
 		}
-	};
-	fetchAdvice();
+	}
+
+	fetchAdvice()
 
 	return (
 		<main>
@@ -49,7 +51,7 @@ const Card = () => {
 				</button>
 			</div>
 		</main>
-	);
-};
+	)
+}
 
-export default Card;
+export default Card
