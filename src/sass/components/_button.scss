@@ -14,8 +14,10 @@
 		box-shadow: $shadow-5;
 	}
 
-	&:active .icon-dice {
-		animation: spin 300ms linear;
+	&.active {
+		.icon-dice {
+			animation: spin 500ms infinite;
+		}
 	}
 }
 
@@ -24,6 +26,6 @@
 		transform: rotate(0deg);
 	}
 	to {
-		transform: rotate(1000deg);
+		transform: rotate(720deg);
 	}
 }
