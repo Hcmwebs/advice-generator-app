@@ -16,7 +16,7 @@
 
 	&.active {
 		.icon-dice {
-			animation: spin 500ms infinite;
+			animation: spin 1500ms infinite;
 		}
 	}
 }
@@ -26,6 +26,6 @@
 		transform: rotate(0deg);
 	}
 	to {
-		transform: rotate(720deg);
+		transform: rotate(1050deg);
 	}
 }
